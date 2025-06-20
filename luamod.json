@@ -1,0 +1,36 @@
+{
+  "name": "lua-stringx",
+  "location": "github.com/symd/lua-stringx",
+  "version": "1.0.0",
+  "description": "Extended string manipulation library for Lua",
+  "root": ".",
+  "main": "init.lua",
+  
+  "dependencies": {
+    "github.com/kikito/utf8": ">=1.0.0",
+    "github.com/moteus/lua-log": "^0.1.0"
+  },
+  
+  "exports": {
+    ".": "./init.lua",
+    "./trim": "./lib/trim.lua",
+    "./split": "./lib/split.lua",
+    "./case": "./lib/case.lua",
+    "./unicode": "./lib/unicode/init.lua"
+  },
+  
+  "mappings": {
+    "stringx": "init.lua",
+    "stringx/trim": "lib/trim.lua",
+    "stringx/split": "lib/split.lua",
+    "stringx/case": "lib/case.lua",
+    "stringx/unicode": "lib/unicode/init.lua"
+  },
+  
+  "metadata": {
+    "author": "Your Name",
+    "license": "MIT",
+    "homepage": "https://dunleavy.dev/lua-stringx",
+    "repository": "https://github.com/symd/lua-stringx.git"
+  }
+}
